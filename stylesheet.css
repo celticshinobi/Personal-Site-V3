@@ -1,0 +1,369 @@
+body {
+    background: url("../imgs/bg_website.png") repeat scroll left top transparent;
+    color: #666666;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+strong {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.headerwrap {
+    background: url("../img/bg_header.png") no-repeat scroll center top transparent;
+    height: 100px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.row {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+#logo {
+    float: left;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    width: 300px;
+}
+
+#logo img {
+    margin: 10px 0 0;
+}
+img {
+    border: 0 none;
+    outline: 0 none;
+}
+
+#nav {
+    float: right;
+    font-weight: bold;
+    line-height: 70px;
+    margin: 10px;
+    padding: 0;
+    text-align: right;
+    width: 620px;
+}
+
+#nav a, #nav a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+#nav a {
+    margin: 0 10px;
+}
+a, a:visited {
+    color: #EB6841;
+    text-decoration: none;
+}
+a {
+    border: 0 none;
+    outline: 0 none;
+}
+
+.introwrap {
+    background: url("../img/bg_intro2.png") no-repeat scroll center top transparent;
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 508px;
+    line-height: 58px;
+    padding: 120px 0 0;
+    text-align: center;
+}
+
+p {
+    margin: 12px 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p.big {
+    font-size: 20px;
+}
+
+p.little {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+intro {
+    color: #FFFFFF;
+    font-size: 24px;
+    /*line-height: 50px;*/
+    text-align: center;
+}
+
+.tom {
+    position: absolute;
+    top: 160px;
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    line-height: 30px;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.tom h1 {
+    font-size: 28px;
+}
+.tom h2 {
+    font-size: 22px;
+}
+
+#work h3 {
+    color: #00A8C6;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 12px 0 40px 0;
+    padding: 12px 0;
+}
+
+.workwrap {
+    float: left;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.project {
+    background: url("../img/bg_project.png") no-repeat scroll center bottom transparent;
+    float: left;
+    height: 220px;
+    margin: 10px;
+    padding: 0 0 20px;
+    position: relative;
+    width: 300px;
+}
+
+.aboutwrap {
+    float: left;
+    padding: 120px 0;
+    position: relative;
+    width: 100%;
+}
+
+#about-me {
+    float: left;
+    margin: 0 0 60px 0;
+}
+
+#about-me h3 {
+    color: #00A8C6;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 12px 0;
+    padding: 12px 0;
+}
+
+#about-info {
+    float: left;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    width: 500px;
+}
+
+#about-info h3 {
+    color: #00A8C6;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 12px 0;
+    padding: 12px 0;
+}
+
+#about-pic {
+    background: url("../imgs/img_mike-smith.png") no-repeat scroll center top transparent;
+    float: left;
+    margin: 10px;
+    min-height: 250px;
+    padding: 0;
+    position: relative;
+    width: 420px;
+}
+
+#about-pic h3 {
+    color: #00A8C6;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 12px 0;
+    padding: 12px 0;
+}
+
+#about-pic ul {
+    list-style-type: none;
+}
+
+.contactwrap {
+    float: left;
+    padding: 120px 0 60px;
+    width: 100%;
+}
+
+#contact-info {
+    float: left;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    width: 300px;
+}
+
+#contact-info h3 {
+    color: #00A8C6;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 12px 0;
+    padding: 0;
+}
+
+.icon {
+    float: left;
+    height: 50px;
+    margin: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+    transition: opacity 0.5s linear 0s;
+    width: 50px;
+}
+
+#contact-form {
+    float: left;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    width: 620px;
+}
+
+.form_input {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #3cb5f1;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 268px;
+}
+
+.form_textarea {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #3cb5f1;
+    height: 160px;
+    margin: 10px;
+    padding: 10px;
+    width: 578px;
+}
+
+.form_submit {
+    background: none repeat scroll 0 0 #f8aa33;
+    /*background: none repeat scroll 0 0 #EB6841;*/
+    border: 1px solid #3cb5f1;
+    color: #F1F1F1;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+}
+
+.footerwrap {
+    background: url("../img/bg_footer.png") no-repeat scroll center top transparent;
+    float: left;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#footer-copy {
+    color: #F1F1F1;
+    float: left;
+    line-height: 70px;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    width: 700px;
+}
+
+#footer-arrow {
+    float: left;
+    margin: 27px 10px 10px 10px;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    width: 220px;
+}
+
+
+/* code for portfolio pages */
+
+
+#port {
+    
+    
+}
+
+.portwrap {
+    background: url("../img/bg_port.png") no-repeat scroll center top transparent;
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 508px;
+    padding: 120px 0 0;
+    
+}
+
+.portwrap h1 {
+    color: #00A8C6;
+    font-size: 36px;
+    line-height: 26px;
+    margin: 12px 0;
+    padding: 12px 0;
+}
+
+.portwrap h2 {
+    color: #00A8C6;
+    font-size: 30px;
+    line-height: 16px;
+    margin: 12px 0;
+    padding: 12px 0;
+}
+
+.portfolio_project {
+    float: left;
+    height: 220px;
+    position: relative;
+    width: 460px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.port-info {
+    float: left;
+    width: 440px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-right: 50px;
+    
+    
+}
+
+.port-info {
+    line-height: 28px;
+}

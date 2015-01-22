@@ -1,0 +1,20 @@
+/*
+Theme Name:     Starving Meteor V 1
+Theme URI:      http://www.starvingmeteor.com
+Description:    Starving Meteor Customer Theme v 1
+Author:         Tom
+Author URI:     http://tom.starvingmeteor.com
+Template:       ribbon
+Version:        1.0.0
+*/
+ 
+@import url("../ribbon/style.css");
+
+.main-header {
+	background-color: #252525;
+}
+
+#searchform #s {
+	margin-right: 5px;
+	margin-top: 1px;
+}
